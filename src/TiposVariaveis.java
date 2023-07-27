@@ -1,9 +1,23 @@
 public class TiposVariaveis {
     public static void main (String [] args){
 
-        final int numero1 = 1;
+        // testando operadores aritmeticos
 
-        System.out.println(numero1);
+        double soma = 3.5 + 5.6;
+
+        int subtracao = 115 - 37;
+
+        int multiplicacao = 20 * 3;
+
+        int divisao = 15 / 5;
+
+        int modulo = 18 % 4;
+
+        int resultado = (15 * 7) + (12 / 4);
+
+
+        System.out.println(soma + " " + subtracao + " " + multiplicacao +
+               " " + divisao + " " + modulo + " " + resultado);
 
     }
 }
