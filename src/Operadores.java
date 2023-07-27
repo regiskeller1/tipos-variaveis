@@ -2,10 +2,10 @@ public class Operadores {
 
     public static void main(String[] args) {
 
-        int numero = 1;
+        boolean variavel = false;
 
-        numero++;
+        variavel = !variavel;
 
-        System.out.println(numero);
+        System.out.println(variavel);
     }
 }
